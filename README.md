@@ -14,4 +14,8 @@ Raytraces a scene described by parsing a subset of the POV-Ray scene description
   
 [RUN]
 
-./snow-globe-enterprise
+./simple-pbr-raytracer action relativeInputPath width height
+
+[EXAMPLE]
+
+./simple-pbr-raytracer render ../resources/shiny.pov 1024 1024
